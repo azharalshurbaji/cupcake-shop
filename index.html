@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="TestApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body ng-controller="testCtrl">
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-navbar">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center my-3" id="navbarTogglerDemo01">
+                <a href="#" class="logo navbar-brand">CupCake</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#hero-section"
+                            class="nav-link link-offset-2 link-offset-4-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#product-section" class="nav-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-us" class="nav-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonial-section" class="nav-link">
+                            Testimonial
+                        </a>
+                    </li>
+                </ul>
+                <a href="#download-app-section">
+                    <button class="btn btn-outline-primary" type="button">Download App</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero-section mt-5" id="hero-section">
+        <div class="container">
+            <div class="hero-section-content d-lg-flex justify-content-center align-items-center">
+                <div class="hero-content">
+                    <h1 class="main-title display-2">CupCake</h1>
+                    <p class="hero-title fs-3">Make People Happy Fresh & Delicious</p>
+                    <p class="hero-text fs-6 text-black-60 ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fugiat facere vel at alias optio
+                        quia nemo aperiam facilis odit?
+                    </p>
+                </div>
+                <div class="hero-image">
+                    <img class="hero-img" src="/img/Group 97.svg" alt="img-1">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- This Week's Specials -->
+    <!-- Product Section -->
+    <section class="product-section py-5" id="product-section">
+        <div class="container my-5 text-center">
+            <h2 class="main-title">This Week's Specials</h2>
+            <p class="fs-6 text-body-tertiary">
+                Try or most popular signature cupcakes and taste the difference!
+            </p>
+            <div class="h-rule"></div>
+        </div>
+        <div class="container">
+            <div class="row  text-center">
+                <div class="col-md-3 gx-3 align-self-center">
+                    <img class="img-thumbnail w-75" src="/img/product-img/6.png" alt="img-1">
+                    <p class="fs-6 text-body-tertiary">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                    <p class="text-danger fw-medium">$9.00</p>
+                </div>
+                <div class="col-md-3 gx-3 align-self-center">
+                    <img class="img-thumbnail w-75" src="/img/product-img/2.png" alt="img-2">
+                    <p class="fs-6 text-body-tertiary">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                    <div>
+                        <p class="text-danger fw-medium">$9.00</p>
+                    </div>
+                </div>
+                <div class="col-md-3 gx-3 align-self-center">
+                    <img class="img-thumbnail w-75" src="/img/product-img/3.png" alt="img-3">
+                    <p class="fs-6 text-body-tertiary">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                    <div>
+                        <p class="text-danger fw-medium">$9.00</p>
+                    </div>
+                </div>
+                <div class="col-md-3 gx-3 align-self-center">
+                    <img class="img-thumbnail w-75" src="/img/product-img/4.png" alt="img-4">
+                    <p class="fs-6 text-body-tertiary">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                    <div>
+                        <p class="text-danger fw-medium">$9.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us py-5 bg-body-tertiary" id="about-us">
+        <div class="container text-center">
+            <h2 class="main-title">About Us</h2>
+            <p class="fs-6 text-body-tertiary">
+                Try or most popular signature cupcakes and taste the difference!
+            </p>
+            <div class="h-rule"></div>
+        </div>
+        <div class="container">
+            <div class="row d-lg-flex justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <img src="/img/about-us.svg" alt="about-us">
+                </div>
+                <div class="col-md-6">
+                    <p class=" text-style">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos minus, beatae, delectus doloribus
+                        unde
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos minus, beatae, delectus doloribus
+                        unde quod suscipit rem esse quo maiores expedita tempore eius et aperiam harum. Quidem, aliquam
+                        delectus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos minus, beatae, delectus doloribus
+                        unde quod suscipit rem esse quo maiores expedita tempore eius et aperiam harum. Quidem, aliquam
+                        delectus?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial Section -->
+    <section class="testimonial-section py-5" id="testimonial-section">
+        <div class="container my-5 text-center">
+            <h2 class="main-title">
+                <i class="fa fa-quote-right text-warning h5 p-2"></i> 
+                What people say about us
+                <i class="fa fa-quote-left text-warning h5 p-2"></i> 
+            </h2>
+            <p class="fs-6 text-body-tertiary">
+                Try or most popular signature cupcakes and taste the difference!
+            </p>
+            <div class="h-rule"></div>
+        </div>
+    
+        <div class="container w-50 parent-items text-center">
+            <div class="item">
+                <i class="fa fa-quote-left text-warning h5 p-2"></i> 
+                    <span class="fs-2 fw-bold text-body-emphasis">
+                        Napoleon Hill
+                    </span>
+                    <i class="fa fa-quote-right text-warning"></i> 
+                <p class="text-body-secondary"> Whatever the mind of man can conceive and believe, it can achieve.</p>
+            </div>
+            <div class="item">
+                <i class="fa fa-quote-left text-warning h5 p-2"></i> 
+                    <span class="fs-2 fw-bold">
+                        Robert Frost
+                    </span>
+                    <i class="fa fa-quote-right text-warning h5 p-2"></i> 
+                <p class="text-body-secondary"> Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference. </p>
+            </div>
+            <div class="item">
+                <i class="fa fa-quote-left text-warning h5 p-2"></i> 
+                    <span class="fs-2 fw-bold">
+                        Albert Einstein
+                    </span>
+                    <i class="fa fa-quote-right text-warning h5 p-2"></i> 
+                <p class="text-body-secondary"> Strive not to be a success, but rather to be of value.</p>
+            </div>
+            <div class="item">
+                <i class="fa fa-quote-left text-warning h5 p-2"></i> 
+                    <span class="fs-2 fw-bold">
+                        Kevin Kruse
+                    </span>
+                    <i class="fa fa-quote-right text-warning h5 p-2"></i> 
+                <p class="text-body-secondary"> Life isn’t about getting and having, it’s about giving and being.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download App Section -->
+    <section class="download-app-section py-5 bg-body-tertiary" id="download-app-section">
+        <div class="container overflow-x-hidden">
+            <div class="row d-lg-flex flex-wrap-reverse justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h2 class="text-black">
+                        Track everything with the App
+                    </h2>
+                    <p class="text-body-secondary">
+                        sit amet consectetur adipisicing elit. Distinctio voluptatibus iure sed
+                        sit amet consectetur adipisicing elit. Distinctio voluptatibus iure sed
+                    </p>
+                    <button class="btn btn-primary" type="button">Download App</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="w-100" src="/img/product-img/10.png" alt="about-us">
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Quote Section -->
+    <section class="quote-section py-5">
+        <div class="container my-5">
+            <h2 class="main-title text-center">
+                <i class="fa fa-quote-right text-warning h5 p-2"></i> 
+                Get a Free Quote 
+            </h2>
+            <p class="fs-6 text-body-tertiary text-center">
+                Try or most popular signature cupcakes and taste the difference!
+            </p>
+            <div class="h-rule"></div>
+            <form class="row g-3 w-50 m-auto">
+                <div class="col-md-12">
+                    <labal for="inputFullName" class="form-label text-body-secondary">Full Name</labal>
+                    <input type="text" class="form-control form-control-lg" id="inputFullName">
+                </div>
+                <div class="col-md-12">
+                    <labal for="inputEmail" class="form-label text-body-secondary">Email</labal>
+                    <input type="email" class="form-control form-control-lg" id="inputEmail">
+                </div>
+                <div class="col-md-12">
+                    <labal for="inputPhone" class="form-label text-body-secondary">Phone</labal>
+                    <input type="tel" class="form-control form-control-lg" id="inputPhone">
+                </div>
+                <div class="col-md-12">
+                    <labal for="inputMessage" class="form-label text-body-secondary">Message</labal>
+                    <textarea class="form-control" rows="5" aria-label="With textarea"></textarea>
+                </div>
+                <div class="col-md-12 d-grid">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5">
+        <div class="container my-5">
+            <div class="row d-lg-flex justify-content-between align-items-baseline">
+                <div class="col-md-4">
+                    <a href="#" class="logo navbar-brand">CupCake</a>
+                    <p class="text-secondary">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolor quisquam quos illo magni placeat.
+                    </p>
+                    <div class="icon-link-hover">
+                        <i class="fab fa-facebook fs-4"></i>
+                        <i class="fab fa-instagram-square mx-3 fs-4"></i>
+                        <i class="fab fa-google fs-4"></i>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>
+                        <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Home
+                        </a>
+                    </p>
+                    <p>
+                        <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Services
+                        </a>
+                    </p>
+                    <p>
+                        <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            About Us
+                        </a>
+                    </p>
+                    <p>
+                        <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
+                            Testimonails
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-4 ">
+                    <p class="fs-6 text-body-secondary">
+                        <!-- Order now through our application -->
+                        You can browse and order our products through our application
+                    </p>
+                    <button class="btn btn-outline-primary btn-sm" type="button">Download App</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JAVA SCRIPT BOOTSTRAP  -->
+    <script src="/bootstrap/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>
